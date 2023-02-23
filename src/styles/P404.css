@@ -1,0 +1,27 @@
+.p404 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #FF6060;
+    margin-top: 100px;
+}
+
+
+.p404-title{
+    font-weight: 700;
+    font-size: 190px;
+}
+
+.p404 p {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.link-acceuil-404 {
+    display: flex;
+    color: #FF6060;
+    margin-top: 100px;
+    font-size: 18px;
+}

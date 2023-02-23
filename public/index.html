@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <title>React App</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel/html">
+      function Components() {
+        return <div> Mon composant apparaît bien</div>
+      }
+      
+      function Banner({ imageHome, welcomeHome}) {
+      return (
+        <div className="banner"> {`${imageHome}`}
+
+            <div className="welcomeImage">{`${welcomeHome}`}
+            </div>
+        </div>
+    )
+}
+      function Card () {
+          return (
+              <div className="cards">
+                  {JSON.map ((element) => (
+                      <Link to = { `logement/${element.id}`} 
+                          key = {element.id} 
+                          className="card"
+                      >
+                          <img src = { element.cover } alt = { element.title } />
+                          <p> { element.title }</p>
+                      </Link>
+                  ))}
+              </div> 
+         )
+}
+      function Navbar() {
+
+return (
+    <div className="navbar">
+        <div className="logo">
+            <img className="logo-img" src= {logoNavbar} alt ="logo" /> 
+        </div>
+        <div className="nav-links">
+            <NavLink
+                to="/"
+            //     className={({ isActive, notActive }) =>
+            //     "header_Nav_link" + (isActive ? " activated" : "")
+                    
+            // }
+            >
+                Accueil
+            </NavLink>
+            <NavLink
+                to="/apropos"
+                // className={({ isActive }) =>
+                // "header_Nav_link" + (isActive ? " activated" : "")
+                // }
+            >
+                A propos
+            </NavLink>
+        </div>
+    </div>
+)
+}
+      ReactDOM.render(
+        <Components />,
+        <Banner />,
+        <Card />,
+        <Navbar />,
+        document.getElementById('root')
+
+      )
+    </script>
+  </body>
+</html>
