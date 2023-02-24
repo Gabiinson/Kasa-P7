@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Apropos from './pages/Apropos';
 import Navbar from './components/Navbar';
 import Error from './pages/Error';
+import Footer from './components/Footer';
 import reportWebVitals from './reportWebVitals';
 import '../src/index.css';
 
@@ -19,6 +20,7 @@ root.render(
 					<Route path = '*' element = {<Error /> } />
 						
 			</Routes>
+			<Footer />
 		</BrowserRouter>
 	</React.StrictMode>
 );

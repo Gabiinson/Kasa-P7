@@ -8,10 +8,13 @@
     margin-top: 100px;
 }
 
-
 .p404-title{
     font-weight: 700;
     font-size: 190px;
+    margin: 0;
+}
+.p404 h1{
+    margin: 0;
 }
 
 .p404 p {
@@ -22,6 +25,6 @@
 .link-acceuil-404 {
     display: flex;
     color: #FF6060;
-    margin-top: 100px;
+    margin-top: 75px;
     font-size: 18px;
 }

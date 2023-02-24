@@ -1,7 +1,5 @@
 * {
   box-sizing: border-box;
-  margin: auto;
-  max-width: 1440px;
 }
 
 body {
@@ -10,8 +8,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-    width: 100%;
-
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 code {
