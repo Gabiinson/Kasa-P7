@@ -1,11 +1,11 @@
 .cards {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    grid-gap: 60px;
+    grid-gap: 40px;
     width: 1240px;
     justify-items: center;
     border-radius: 25px;
-    background-color: #f6f6f6;
+    background-color: #f7f7f7;
     margin-bottom: 50px;
 }
 
@@ -13,23 +13,19 @@
     position: relative;
     margin: 0;
     padding: 0;
+    margin-top: 15px;
     
 }
-
-.card {
-	width: 100%;
-}
-
 .card p {
     position: absolute;
     font-size: 20px;
     left: 20px;
-    bottom: 23px;
+    bottom: 20px;
     color: white;
 }
 
 .card img {
-    width: 100%;
+    width: 340px;
     height: 340px;
     position: relative;
     border-radius: 10px;

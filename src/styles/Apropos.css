@@ -1,13 +1,18 @@
 .apropos {
     max-width: 1440px;
     width: 100%;
-    margin: 0;
+    padding: 0 50px;
 }
 
+.info{
+  padding: 0 50px;
+}
 .contentCollapse {
     display: flex;
-    width: 79%;
+    width: 85%;
     flex-direction: column;
+    margin: auto;
+    margin-bottom: 75px;
 }
 
 .collapse {
