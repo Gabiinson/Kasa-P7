@@ -16,6 +16,7 @@ function Description ({
                 </div>
                 <div className="card2">
                     <Host host = {host} />
+                    
                 </div>
             </div>
             <div className="descEquip">

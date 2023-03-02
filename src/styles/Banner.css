@@ -3,8 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 25px;
-    width: 1240px;
-    height: 223px;
+    height: 220px;
     margin-bottom: 50px;
     margin-top: 25px;
 }
@@ -14,7 +13,7 @@
     padding: 40px 10px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
     font-size: 48px;
     top: 40px;
     color: #fff;

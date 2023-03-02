@@ -4,10 +4,10 @@ import "../styles/Footer.css"
 
 function Footer() {
     return (
-        <div className="footer">
+        <footer>
             <img className="logofooter" src={logoFooter} alt= "logo de Kasa" />
             <div className="copyright">© 2020 Kasa. All rights reserved</div>
-        </div>
+        </footer>
     )
 }
 

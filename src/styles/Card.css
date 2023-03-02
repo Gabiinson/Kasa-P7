@@ -1,19 +1,18 @@
 .cards {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    grid-gap: 40px;
-    width: 1240px;
+    grid-gap: 50px;
     justify-items: center;
     border-radius: 25px;
     background-color: #f7f7f7;
     margin-bottom: 50px;
+    padding: 50px;
 }
 
 .card {
     position: relative;
     margin: 0;
     padding: 0;
-    margin-top: 15px;
     
 }
 .card p {
@@ -25,9 +24,8 @@
 }
 
 .card img {
-    width: 340px;
-    height: 340px;
-    position: relative;
+    width: 100%;
+    aspect-ratio: 1/1;
     border-radius: 10px;
     object-fit: cover;
 }
