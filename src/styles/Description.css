@@ -1,0 +1,30 @@
+.descEquip {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.desc, .equip {
+    width: 45%;
+}
+
+.card1 .title {
+    font-size: 36px;
+    font-weight: 500 ;
+    margin-top: 20px;
+    color: #FF6060;
+}
+
+.card1 .locate {
+    margin-top: 10px;
+    color: #FF6060;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}

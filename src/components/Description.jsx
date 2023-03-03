@@ -1,10 +1,10 @@
 import Collapse from "./Collapse";
 import Tag from "./Tag";
 import Host from "./Host";
-/**Rajouter Rating dans les import**/
+import Rate from "./Rate"
 
 function Description ({
-    title, description, host, rating, location, equipments, tags,
+    title, description, host, rate, location, equipments, tags,
 }) {
     return (
         <div className="info">
@@ -16,7 +16,7 @@ function Description ({
                 </div>
                 <div className="card2">
                     <Host host = {host} />
-                    
+                    <Rate rate = {rate} />
                 </div>
             </div>
             <div className="descEquip">
