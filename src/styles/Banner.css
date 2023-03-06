@@ -18,5 +18,24 @@
     top: 40px;
     color: #fff;
 }
-
+@media screen and (max-width: 767px) {
+    .welcomeImage {
+        top: 10px;
+        font-size: 24px;
+        line-height: 24px;
+        width: 240px;
+        height: 50px;
+    }
+    .banner {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        min-height: 110px;
+        min-width: 335px;
+        margin-bottom: 50px;
+        margin-top: 25px;
+        object-fit: cover;
+    }
+}
 

@@ -13,7 +13,6 @@
     position: relative;
     margin: 0;
     padding: 0;
-    
 }
 .card p {
     position: absolute;
@@ -28,6 +27,22 @@
     aspect-ratio: 1/1;
     border-radius: 10px;
     object-fit: cover;
+}
+@media screen and (max-width: 767px){
+    .cards {
+        grid-template-columns: repeat(1, auto);
+        background-color: white;
+        padding: 0 0;
+        grid-gap: 20px;
+    }
+    .card img {
+        min-width: 335px;
+        height: 250px;
+    }
+
+    .card p {
+        font-size: 15px;
+    }
 }
 
 

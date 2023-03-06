@@ -29,3 +29,22 @@
     font-weight: normal;
    padding-left: 10px;
   }
+
+  @media screen and (max-width: 767px) {
+    .apropos {
+      padding: 10px;
+  } 
+  .contentCollapse {
+    width: 100%;
+  }
+  .collapse {
+    font-size: 13px;
+}
+.down{
+  min-width: 3%;
+ }
+ .up{
+  min-width: 3%;
+ }
+  
+  }
