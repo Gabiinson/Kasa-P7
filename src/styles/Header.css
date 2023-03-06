@@ -1,13 +1,11 @@
-.navbar {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0 ; 
     max-width: 1440px;
     padding: 0 100px;
     margin: 0 auto;
-
 }
 
 .logo {
@@ -35,4 +33,22 @@
 
 .nav-links a:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        padding: 10px 10px;
+      }
+      .nav-links {
+        text-transform: uppercase;
+      }
+      .logo img {
+        width: 100px;
+    }
+    .nav-links :nth-child(1) {
+        margin-right: 30px;
+    }
+    .header_Nav_link {
+        font-size: 12px;
+    }
 }

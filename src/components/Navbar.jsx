@@ -1,16 +1,16 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import logoNavbar from "../assets/logo.png";
-import "../styles/Navbar.css"
+import "../styles/Header.css"
 
 function Navbar() {
 
     return (
-        <div className="navbar">
+        <header>
             <div className="logo">
                 <img className="logo-img" src= {logoNavbar} alt ="logo" /> 
             </div>
-            <div className="nav-links">
+            <nav className="nav-links">
                 <NavLink
                     to="/"
                      className={({ isActive, notActive }) =>
@@ -28,8 +28,8 @@ function Navbar() {
                         
                     A propos
                 </NavLink>
-            </div>
-        </div>
+            </nav>
+        </header>
     )
 }
 

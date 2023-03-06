@@ -2,6 +2,7 @@ import Collapse from "./Collapse";
 import Tag from "./Tag";
 import Host from "./Host";
 import Rate from "./Rate"
+import "../styles/Description.css"
 
 function Description ({
     title, description, host, rate, location, equipments, tags,

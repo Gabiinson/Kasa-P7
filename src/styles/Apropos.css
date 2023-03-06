@@ -1,12 +1,9 @@
 .apropos {
     max-width: 1440px;
     width: 100%;
-    padding: 0 50px;
+    padding: 0 100px;
 }
 
-.info{
-  padding: 0 50px;
-}
 .contentCollapse {
     display: flex;
     width: 85%;
@@ -20,28 +17,7 @@
     font-size: 22px;
     padding-bottom: 10px;
 }
-
-.collapse p {
-    background-color: #f6f6f6;
-    transition: all ease-in-out;
-    border-bottom-right-radius: 10px;
-    color: #ff6060;
-    margin-top: -20px;
-    padding: 20px;
-    
-  }
   
-  .container {
-    height: 48px;
-    background-color: #ff6060;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 5px;
-    margin-bottom: 20px;
-  }
-
   .down{
    padding-right: 15px;
   }
