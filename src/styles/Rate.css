@@ -1,8 +1,11 @@
-.rate {
-    margin-top: 20px;
+    .rate {
+        margin-top: 20px;
    }
    
    .stars {
        padding-left: 10px;
        width: 25px;
+   }
+   .staring {
+    display: flex;
    }

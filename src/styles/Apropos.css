@@ -40,11 +40,11 @@
   .collapse {
     font-size: 13px;
 }
-.down{
-  min-width: 3%;
+  .down{
+  min-width: 5%;
  }
- .up{
-  min-width: 3%;
+  .up{
+  min-width: 5%;
  }
   
   }

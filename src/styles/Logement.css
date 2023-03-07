@@ -1,6 +1,10 @@
+.logement {
+    max-width: 1440px;
+    width: 100%;
+}
+
 .location {
     max-width: 1440px;
     padding: 0 100px;
-    margin: 10px auto;
     margin-bottom: 150px;
 }

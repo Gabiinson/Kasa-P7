@@ -31,8 +31,8 @@
         background-size: cover;
         background-repeat: no-repeat;
         border-radius: 10px;
-        min-height: 110px;
         min-width: 335px;
+        min-height: 110px;
         margin-bottom: 50px;
         margin-top: 25px;
         object-fit: cover;

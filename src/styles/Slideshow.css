@@ -40,3 +40,21 @@
 .hide {
     display: none;
 }
+@media screen and (max-width: 767px) {
+    .imageSlide {
+        height: 255px;
+        min-width: 335px;
+    }
+    .page {
+        display: none;
+    }
+    .arrow-left {
+        left: 5px;
+        top: 105px;
+    }
+    .arrow-right {
+        right: 5px;
+        top: 105px;
+    }
+
+}
