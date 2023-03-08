@@ -3,7 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 25px;
-    height: 220px;
+    height: 180px;
     margin-bottom: 50px;
     margin-top: 25px;
 }
@@ -24,7 +24,6 @@
         font-size: 24px;
         line-height: 24px;
         width: 240px;
-        height: 50px;
     }
     .banner {
         background-position: center;

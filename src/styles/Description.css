@@ -41,7 +41,7 @@
     .tag {
         font-size: 10px;
         border-radius: 5px;
-        min-width: 85px;
+        min-width: 75px;
         flex-wrap: nowrap;
     }
     .picture {
@@ -68,7 +68,7 @@
         min-width: 335px;
     }
     .info1 {
-        display: grid;
+     display: grid;
     }
     .host{
         margin-bottom: 0;
@@ -76,6 +76,10 @@
     .staring{
         flex-wrap: nowrap;
     }
+    .star {
+        width: 20px;
+    }
+    
 
 }
 
