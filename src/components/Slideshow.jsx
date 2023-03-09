@@ -20,7 +20,6 @@ function Slideshow () {
     function prevSlide () {
         setCurrent(current === 0 ? lengthArray - 1 : current - 1);
     };
-
     return (
         <>
             {logementData &&

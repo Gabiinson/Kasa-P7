@@ -6,7 +6,7 @@ import "../../styles/Home.css"
 
 function Home () {
     return (
-        <div className="Home">
+        <div className="home">
             <Banner
             imageHome = {bannerHome}
             welcomeHome = "Chez vous, partout et ailleurs"

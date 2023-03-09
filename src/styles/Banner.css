@@ -3,10 +3,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 25px;
-    height: 180px;
+    height: 200px;
     margin-bottom: 50px;
     margin-top: 25px;
 }
+
 
 .welcomeImage {
     position: relative;
@@ -20,10 +21,11 @@
 }
 @media screen and (max-width: 767px) {
     .welcomeImage {
-        top: 10px;
         font-size: 24px;
         line-height: 24px;
-        width: 240px;
+        width: 190px;
+        padding: 0;
+        margin-left: 10px;
     }
     .banner {
         background-position: center;
@@ -31,10 +33,12 @@
         background-repeat: no-repeat;
         border-radius: 10px;
         min-width: 335px;
-        min-height: 110px;
         margin-bottom: 50px;
         margin-top: 25px;
         object-fit: cover;
+    }
+    .home .banner {
+        height: 110px;
     }
 }
 
